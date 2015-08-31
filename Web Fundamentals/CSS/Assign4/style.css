@@ -1,0 +1,271 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*============ ELEMENT OVERRIDES==============*/
+html{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+h1, h2, h3{
+	color: black;
+	font-weight: bold;
+}
+p, hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*============ IMAGE MANIPUATION=============*/
+/* Logo Container. This will access the main logo image and used for direct manupulation*/
+#logo{
+
+}
+
+/* Logo Container. This will access the header logo image and used for direct manupulation*/
+#logo-header{
+
+}
+
+/* Logo Container. This will access the footer logo image and used for direct manupulation*/
+#logo-footer{
+
+}
+
+
+/*============ MAIN LEGO BLOCKS==============*/
+/* Master Container */
+#container{
+	width: 970px;
+	margin: 0px auto;
+	background-color: #000000;
+
+}
+/*Main Top Container. This will hold all divs that makeup the first major block*/
+#header{
+	display: block;
+	height: auto;
+	width: auto;
+	background-color: #E9E9E9;
+
+}
+/*Main Side Container. This will hold all divs that makeup the side bar and displays as an inline block*/
+#sidebar{
+	background-color: lightgrey;
+	border: 1px solid grey;
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 10px;
+
+}
+/*Main Content Container. This will hold all divs that makeup the content block and displays as ablock*/
+#content{
+ 	display: block;
+ 	margin: 10px 5px;
+
+}
+ 	#content ul, ol{
+ 		margin-top: 10px;
+ 		margin-bottom: 10px;
+ 	}
+	#content ul li, ol li{
+		margin-left: 50px;
+	}
+
+#footer{
+	display: block;
+	height: 300px;
+}
+	#footer h6{
+		font-size: .70em;
+		color: #F8D04D;
+		font-weight: lighter;
+		margin: 10px 0px 10px 60px;
+	}
+/*============ MAIN HEADER BLOCKS==============*/
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-left{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-middle{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+	padding: 20px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-right{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 300px;
+	color: black;
+	font-size: 1.125em;
+	font-weight: bolder;
+	padding-top: 30px;
+
+}
+
+/*============ MAIN NAVIGATION BLOCKS==============*/
+/* Navigation Container. This will hold a horizontol list of elements and display and a block*/
+#nav-hor{
+	display: block;
+	border-top: 2px solid darkgrey;
+	background-color: #E1E6EB;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: .75em;
+	font-weight: bold; 
+	color: grey;
+}
+	#nav-hor ul{
+		border-left: 1px solid darkgrey;
+	}
+	#nav-hor ul li{
+		display: inline;
+		border-right: 1px solid darkgrey;
+		padding-right: 10px;
+		margin-left: 20px;
+	}
+
+/* Navigation Container. This will hold a vertical list of elements and display and a block*/
+#nav-ver{
+	width: 100px;
+
+}
+	#nav-ver ul{
+		color: darkred;
+		text-decoration: underline;
+		font-size: .75em;
+		margin-left: 10px;
+	}
+
+	#nav-ver ul li{
+		margin-bottom: 5px;
+	}
+
+
+/*============ CUSTOM & WIDGETS==============*/
+/* Search Bar Container. This will a form that gives user ability to search on input string*/
+#search{
+	margin-left: 50px;
+	margin-top: 10px;
+
+}
+
+/* Selection Container. This will hold a horizontol list of anchors seprated by "|" and display as a block*/
+#textsize{
+	color: white;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+
+}
+	#textsize ul li{
+		display: inline;
+	}
+
+	#textsize a{
+		color: yellow;
+		text-decoration: underline;
+	}
+#infobox{
+	display: inline-block;
+	vertical-align: top;
+	width: 550px;
+	height: 265px;
+	margin-left: 10px;
+	background-color: grey;
+
+	
+}
+	#infobox h1{
+		background-color: #F8D04D;
+		color: black;
+		font-weight: bold;
+		font-size: .75em;
+		padding: 5px;
+	}
+
+	#infobox h2{
+		
+		color: white;
+		font-weight: bold;
+		font-size: .90em;
+		padding: 10px;
+	}
+
+	#infobox p{
+		color: white;
+		font-size: .75em;
+		padding: 0px 10px;
+	}
+
+#mainpic{
+	border: 4px solid white;
+	width: 377px;
+	height: 255px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.smallpic{
+	width: 222px;
+	margin-left: 10px;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #FDF6E6;
+	
+}
+	.smallpic h1{
+		background-color: #F8D04D;
+		color: black;
+		font-weight: bold;
+		font-size: .75em;
+		padding: 5px;
+	}
+
+	.smallpic p{
+		color: black;
+		font-size: .60em;
+		margin-left: 0px;
+		padding: 5px;
+	}
+
+	.smallpic input{
+		margin-left: 120px;
+		background-color: #F8D04D;
+		border: 2px solid black;
+		color: black;
+		border-radius: 5px;
+	}
+
+#passage{
+	background-color: lightgrey;
+	color: white;
+	font-size: .75em;
+	padding: 10px;
+}
+/*============ DECORATION CLASSES==============*/
+/* Search Bar Container. This will a form that gives user ability to search on input string*/
+.under-red{
+	color: darkred;
+	text-decoration: underline;
+}
+
+.bold{
+	font-weight: bold;
+}

@@ -1,0 +1,341 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+/*============ ELEMENT OVERRIDES==============*/
+html{
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+h1, h2, h3{
+	color: black;
+	font-weight: bold;
+}
+p, hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+ul{
+	margin-left: 20px;
+}
+
+/*============ MAIN LEGO BLOCKS==============*/
+/* Master Container */
+#container{
+	width: 970px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+
+}
+/*Main Top Container. This will hold all divs that makeup the first major block*/
+#header{
+	display: block;
+	height: auto;
+	width: auto;
+
+
+}
+/*Main Side Container. This will hold all divs that makeup the side bar and displays as an inline block*/
+#sidebar{
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+ 	margin: 10px 10px;
+ 	padding: 20px;
+}
+	#sidebar h1{
+		font-size: .9em;
+		font-weight: bold;
+		color: blue;
+	}
+
+	#sidebar h2{
+		font-size: .7em;
+		color: orange;
+		font-weight: bold;
+	}
+
+	#sidebar p{
+		color: black;
+		font-size: .50em;
+	}
+
+	.bluebutton, #sidebar p.bluebutton{
+		color: white;
+		font-size: .7em;
+		font-weight: bold;
+		background-color: blue;
+		width: 190px;
+		height: 20px;
+		border: 1px solid navy;
+		border-radius: 3px;
+		padding: 5px;
+	}
+
+	.orgbutton, #sidebar p.orgbutton{
+		color: white;
+		font-size: .7em;
+		font-weight: bold;
+		background-color: orange;
+		width: 190px;
+		height: 20px;
+		border: 1px solid red;
+		border-radius: 3px;
+		padding: 5px;
+	}
+
+	.grnbutton, #bluebox p.grnbutton{
+		color: white;
+		font-size: .8em;
+		font-weight: normal;
+		background-color: green;
+		width: 125px;
+		height: 20px;
+		border: 1px solid darkgreen;
+		border-radius: 3px;
+		padding: 5px;
+	}
+/*Main Content Container. This will hold all divs that makeup the content block and displays as ablock*/
+#content{
+ 	display: inline-block;
+	vertical-align: top;
+	width: 670px;
+ 	margin: 10px 10px;
+}
+	#content h1{
+		color: blue;
+		font-size: 1.2em;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	#content h2{
+		color: blue;
+		font-size: 1em;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	
+	}
+	#content ul{
+			margin-left: 30px;
+	}
+	#content ul li{
+		list-style: square;
+
+	}
+#footer{
+	display: block;
+
+}
+
+/*============ MAIN HEADER BLOCKS==============*/
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-left{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-middle{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+
+}
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-right{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+
+}
+
+/*============ MAIN NAVIGATION BLOCKS==============*/
+/* Navigation Container. This will hold a horizontol list of elements and display and a block*/
+#nav-hor{
+	display: inline;
+	height: 30px;
+	font-size: .75em;
+	font-weight: normal; 
+	color: darkgrey;
+	background-color: lightgrey;
+}
+
+
+/* Navigation Container. This will hold a vertical list of elements and display and a block*/
+#nav-ver{
+	width: 100px;
+
+}
+	#nav-ver ul{
+		color: darkred;
+		text-decoration: underline;
+		font-size: .75em;
+		margin-left: 10px;
+	}
+
+	#nav-ver ul li{
+		margin-bottom: 5px;
+	}
+
+
+/*============ CUSTOM CLASSES==============*/
+.crumb{
+		display: inline-block;
+		vertical-align: top;
+		color: blue;
+		font-size: .80em;
+		margin-top: 5px;
+    	margin-bottom: 5px;
+    	padding-top: 5px;
+}
+#bluebox{
+	border: 5px solid lightblue;
+}
+	#bluebox h1{
+		color: blue;
+		font-size: 1.2em;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	#bluebox p{
+		color: black;
+		font-size: .80em;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+	}
+#ad{
+	background-image: url("img/left_content_ad.png");
+	border: 1px solid grey;
+	width: 170px;
+	height: 220px;
+	padding: 10px;
+}
+	#ad h1{
+		color: blue;
+		font-size: 1em;
+		font-weight: bolder;
+	}
+
+	#ad p{
+		color: black;
+		font-size: .80em;
+		font-weight: bold;
+	}
+
+	#ad p.button{
+		color: white;
+		font-size: .60em;
+		font-weight: normal;
+		background-color: #1A4F7D;
+		border-radius: 3px;
+	}
+#header img{
+	display: inline;
+}
+	#header ul{
+		border-left: 1px solid darkgrey;
+		border-bottom: 1px solid darkgrey;
+		border-right: 1px solid darkgrey;
+		border-radius: 5px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 550px;
+	}
+	#header ul li{
+		display: inline;
+		border-right: 1px solid darkgrey;
+		padding-right: 5px;
+		margin-left: 10px;
+		font-size: .70em;
+		color: #868687;
+	}
+	#header input{
+		background-color: #1F7EC1;
+		color: white;
+		font-size: .70em;
+		font-weight: bold;
+		border-radius: 3px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 20px;
+	}
+.compname{
+	font-family: Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	color: #808082;
+	display: inline-block;
+	vertical-align: top;
+}
+.banner{
+	background-color: #196EA8;
+	font-size: 1.5em;
+	padding: 5px 10px;
+	color: white;
+	font-weight: normal;
+	display: block;
+}
+.hours{
+	color: black;
+	letter-spacing: 1px;
+	font-size: .40em;
+	margin: 0px;
+
+}
+.number{
+	color: blue;
+	font-size: 1.2em;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	margin: 0px;
+
+}
+.numintl{
+	color: black;
+	letter-spacing: 1px;
+	font-size: .40em;
+	margin: 0px;
+	
+}
+.phone{
+	margin-left:  405px;
+	display: inline-block;
+}
+.passage{
+		color: black;
+		font-size: .70em;
+		font-family: Arial, sans-serif;
+}
+.block{
+	display: inline-block;
+}
+.center{
+	margin: 0px auto;
+}
+
+/*============ DECORATION CLASSES==============*/
+/* Search Bar Container. This will a form that gives user ability to search on input string*/
+.under-blue{
+	color: #287DA6;
+	text-decoration: underline;
+}
+
+.blue{
+	color: #287DA6;
+	
+}
+
+.bold{
+	font-weight: bold;
+}

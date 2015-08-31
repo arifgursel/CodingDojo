@@ -1,0 +1,87 @@
+/*CSS reset settings here*/
+/**{
+ margin: 0px;
+ padding: 0px;
+}*/
+a:active{
+	color: purple;
+}
+/*a:visited{
+	color: blue;
+}*/
+p{
+	margin: 0px;
+}
+ul{
+	padding-left: 20px;
+}
+#wrapper{
+ width: 970px;
+ background-color: silver;
+ margin: 0px auto;
+ padding: 10px;
+}
+#header{
+ height: auto;
+ background-color: darkgrey;
+ border-radius: 15px;
+ display: block;
+ padding: 10px;
+ font-size: 2.25em;
+ font-weight: bold;
+}
+#nav{
+ width: 250px;
+ height: auto;
+ border-radius: 15px;
+ background-color: darkgrey;
+ display: inline-block;
+ vertical-align: top;
+ padding: 5px;
+ margin-top: 20px;
+}
+#nav ul, #nav ul li{
+	margin-left: 0px;
+	color: blue;
+}
+#nav a{
+	text-decoration: none;
+	color: blue;
+}
+#content ul{
+	margin-bottom:  20px;
+}
+#content li{
+	margin-bottom: 20px;
+}
+#content{
+ width: 635px;
+ height: auto;
+ border-radius: 15px;
+ background-color: grey;
+ display: inline-block;
+ padding-left: 15px;
+ padding-right: 40px;
+ margin-left: 15px;
+ margin-top: 20px;
+
+}
+/*.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+ display: inline-block;
+ margin-right: 10px;
+}*/
+#footer{
+ height: auto;
+ background-color: darkgrey;
+ border-radius: 15px;
+ display: block;
+ padding: 20px;
+ margin-top: 20px;
+}
+
+/*#footer.p {
+	margin-top: 0px;
+}*/

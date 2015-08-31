@@ -1,0 +1,188 @@
+/*CSS reset settings here*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*============ ELEMENT OVERRIDES==============*/
+ul{
+	margin-left: 20px;
+}
+
+/*============ MAIN LEGO BLOCKS==============*/
+/* Master Container */
+#container{
+	width: 1000px;
+	margin: 15px auto;
+	background-color: #EEEEEE;
+	padding: 15px;
+}
+/*Main Top Container. This will hold all divs that makeup the first major block*/
+#header{
+	display: block;
+	height: auto;
+	width: auto;
+}
+/*Main Side Container. This will hold all divs that makeup the side bar and displays as an inline block*/
+#sidebar{
+	width: 180px;
+	display: inline-block;
+	vertical-align: top;
+ 	margin: 10px 10px;
+ 	padding: 20px;
+}
+	#sidebar h1{
+		font-size: .9em;
+		font-weight: bold;
+		color: blue;
+	}
+
+	#sidebar h2{
+		font-size: .7em;
+		color: orange;
+		font-weight: bold;
+	}
+
+	#sidebar p{
+		color: black;
+		font-size: .50em;
+	}
+
+
+/*Main Content Container. This will hold all divs that makeup the content block and displays as ablock*/
+#content{
+ 	display: inline-block;
+	vertical-align: top;
+	width: 850px;
+ 	margin: 10px 10px;
+}
+#footer{
+	display: block;
+}
+
+/*============ MAIN HEADER BLOCKS==============*/
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-left{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-middle{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+
+}
+/* Header Element Container. This will hold other divs and display as an inline block*/
+#header-inner-right{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+
+}
+
+/*============ MAIN NAVIGATION BLOCKS==============*/
+/* Navigation Container. This will hold a horizontol list of elements and display and a block*/
+#nav-hor{
+	display: inline;
+	height: 30px;
+	font-size: .75em;
+	font-weight: normal; 
+}
+
+/*============ CUSTOM CLASSES==============*/
+#col{
+	width: 105px;
+	height: auto;
+	padding-left: 2.5px;
+	padding-top: 2.5px;
+	margin-left: 5px;
+	padding-bottom: 2.5px;
+	display: inline-block;
+}
+
+#one{
+	width: 107.5px;
+	height: 370px;
+	display: block;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+#two{
+	width: 527.5px;
+	height: 212.5px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 5px;
+}
+#three{
+	width: 317.5px;
+	height: 370px;
+	display: inline-block;
+	vertical-align: top;
+}
+#four{
+	width: 737.5px;
+	height: 107.5px;
+	display: block;
+	margin-top: 15px;
+	margin-left: 120px;
+}
+.element{
+	width: 50px;
+	height: 50px;
+	border: 1px solid grey;
+	display: block;
+	margin: 2.5px 0px 0px 2.5px;
+}
+.number{
+	color: black;
+	font-size: .6em;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	width: 50px;
+	margin: 0px auto;
+	
+}
+.symbol{
+	color: #072A9E;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	width: 50px;
+	margin: 0px auto;
+}
+.block{
+	display: inline-block;
+}
+.center{
+	margin: 0px auto;
+}
+.bluebox{
+	border: 1px solid blue;
+}
+
+/*============ DECORATION CLASSES==============*/
+/* Search Bar Container. This will a form that gives user ability to search on input string*/
+.bold{
+	font-weight: bold;
+}
+.under-blue{
+	color: #287DA6;
+	text-decoration: underline;
+}
+.blue{
+	background-color: #689BFF;
+}
+.red{
+	background-color: #FD9A98;
+}
+.yellow{
+	background-color: #FECB00;
+}
+.green{
+	background-color: #1FCA21;
+}
